@@ -1,0 +1,45 @@
+html{
+    margin:0px;
+    padding:0px;
+}
+#przycisk{
+    float:left;
+    position: absolute;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color:white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#przycisk1{
+    float:right;
+    position: absolute;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color:white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#przycisk:hover{
+    background-color: #45a049;
+}
+#Pole{
+    clear: inherit;
+    padding:20%;
+    height: 1080px;
+    width: 100%;
+    padding:5px;
+    color:white;
+    text-shadow: black 5% 5%;
+    background-color: black;
+    border-radius: 15px;
+
+    text-align: center;
+}
+#boxy{
+    font-size:50px
+}
